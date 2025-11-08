@@ -98,21 +98,21 @@ export default function Header() {
   };
 
   const navigation = [
-    {
-      name: 'Services',
-      href: '/#services',
-      type: 'link' as const
-    },
-    {
-      name: 'Products',
-      href: '/products',
-      type: 'link' as const
-    },
-    {
-      name: 'Work',
-      href: '/projects',
-      type: 'link' as const
-    },
+    // {
+    //   name: 'Services',
+    //   href: '/#services',
+    //   type: 'link' as const
+    // },
+    // {
+    //   name: 'Products',
+    //   href: '/products',
+    //   type: 'link' as const
+    // },
+    // {
+    //   name: 'Work',
+    //   href: '/projects',
+    //   type: 'link' as const
+    // },
     // {
     //   name: 'Company',
     //   href: '#',
