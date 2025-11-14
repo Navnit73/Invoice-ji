@@ -7,11 +7,11 @@ import RootLayoutClient from './components/RootLayoutClient'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'UpwardScript - Digital Product Studio',
-  description: 'We design and develop digital products that drive growth and create meaningful impact for businesses worldwide.',
-  keywords: 'digital product studio, web development, mobile apps, UI/UX design, software development',
+  title: 'Invoice ji - Effortless Invoicing For Freelancers',
+  description: 'Invoice ji is a user-friendly invoicing app designed specifically for freelancers. Create, send, and manage professional invoices with ease, helping you get paid faster and streamline your billing process.',
+  keywords: 'invoicing, freelancers, billing, payments, finance, productivity',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/invoice.png',
   },
 }
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/invoice.png" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <RootLayoutClient>
