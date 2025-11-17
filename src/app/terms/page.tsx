@@ -9,46 +9,50 @@ export default function TermsPage() {
     {
       icon: FileText,
       title: 'Services Description',
-      content: `UpwardScript provides AI-powered software development services, including but not limited to:
+      content: `Invoiceji provides online invoicing, billing, expense tracking, client management, and payment workflow tools. Services include but are not limited to:
 
-• Custom web application development
-• Mobile application development
-• AI/ML solution development
-• UI/UX design services
-• Technical consulting
-• Maintenance and support services
+• Invoice creation and customization
+• Client and payment tracking
+• Estimate and quotation generation
+• Expense and record management
+• Automated reminders and reporting
+• Cloud-based data storage
+• Customer support and onboarding
 
-All services are provided on a project basis as outlined in individual service agreements.`
+All services are provided on a subscription basis and may vary based on the selected plan.`
     },
     {
       icon: Scale,
       title: 'Intellectual Property',
-      content: `Unless otherwise specified in a separate agreement:
+      content: `Unless otherwise specified in a separate written agreement:
 
-• UpwardScript retains all rights to its pre-existing intellectual property
-• Client retains all rights to their pre-existing intellectual property
-• Work product developed specifically for the client is transferred to the client upon full payment
-• UpwardScript may use completed projects in its portfolio unless otherwise agreed`
+• Invoiceji retains all rights to the platform, software, design, and underlying technology
+• Users retain ownership of the content they upload, such as invoices, client details, and business information
+• Generated documents (invoices, quotes, reports) belong fully to the user
+• Users are granted a non-exclusive, non-transferable license to use the platform for business purposes
+• Invoiceji may showcase anonymized usage examples unless the user requests otherwise`
     },
     {
       icon: Shield,
       title: 'Confidentiality',
-      content: `Both parties agree to maintain the confidentiality of proprietary information received from the other party:
+      content: `Both Invoiceji and the user agree to protect confidential information exchanged during usage of the service:
 
-• Confidential information includes business plans, technical information, and trade secrets
-• The obligation of confidentiality survives termination of these terms
-• Information must be kept secure and only used for the intended business purpose
-• Exceptions include information that becomes publicly available through no fault of the receiving party`
+• Confidential information includes business data, client details, financial records, and login credentials
+• All information stored on the platform is encrypted and handled securely
+• Neither party may disclose confidential information without consent
+• These obligations continue even after the user stops using the service
+• Exceptions apply if information becomes public through no fault of the receiving party or is required by law`
     },
     {
       icon: AlertTriangle,
       title: 'Limitation of Liability',
-      content: `To the maximum extent permitted by law:
+      content: `To the fullest extent permitted by law:
 
-• UpwardScript's total liability shall not exceed the amount paid by the client for services
-• We are not liable for indirect, special, or consequential damages
-• Liability limitations do not apply to damages caused by gross negligence or intentional misconduct
-• Clients are responsible for backing up their data and systems`
+• Invoiceji's total liability is limited to the amount paid by the user in the last billing cycle
+• Invoiceji is not responsible for loss of revenue, data, profits, or business opportunities
+• Users are responsible for maintaining backups of exported invoices and data
+• Invoiceji is not liable for downtime caused by third-party services, maintenance, or internet connectivity issues
+• These limitations do not apply in cases of intentional misconduct or legal violations`
     }
   ];
 
@@ -65,14 +69,14 @@ All services are provided on a project basis as outlined in individual service a
             Terms of Service
           </h1>
           <p className="text-lg text-gray-600">
-            Last updated: January 15, 2024
+            Last updated: January 20, 2025
           </p>
         </motion.div>
 
         <div className="prose prose-lg max-w-none mb-8">
           <p className="text-gray-700 leading-relaxed">
-            Please read these Terms of Service carefully before using our services. 
-            By accessing or using our services, you agree to be bound by these terms.
+            Please read these Terms of Service carefully before using Invoiceji. 
+            By accessing or using our platform, you agree to be bound by these terms.
           </p>
         </div>
 
@@ -112,7 +116,7 @@ All services are provided on a project basis as outlined in individual service a
             Contact
           </h3>
           <p className="text-gray-600">
-            Questions about these Terms of Service? Contact us at legal@upwardscript.in
+            Questions about these Terms of Service? Contact us at support@invoiceji.com
           </p>
         </motion.div>
       </div>
